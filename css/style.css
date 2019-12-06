@@ -1,0 +1,173 @@
+*{ box-sizing: border-box}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.home-wrapper {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('../images/background.jpg') no-repeat center top;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    position: fixed;
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgba(48,48,48,0.5);
+
+}
+header img {
+    width: 200px;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 15px;
+
+}
+header nav a.active {
+    background: #fed136;
+    border-radius: 3px;
+}
+#home {
+    text-align: center;
+    padding: 200px 0 150px; 
+}
+ 
+#home h1{
+    font-size: 68px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+#home .devider {
+    width: 80px;
+    border-top: 5px solid #fed136;
+    margin: 0 auto;
+}
+
+#home h1{
+    font-size: 68px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+#home p{
+    font-size: 26px;
+}
+
+#home .social{
+    margin-top: 60px;
+}
+
+#home .social a{
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: black;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+#home .social a:hover{
+    background-color: #fed136;
+}
+
+#servicios .box {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+}
+#servicios .box p {
+    color: #666;
+    padding: 10px;
+}
+#portafolio {
+    background-color: whitesmoke;
+}
+
+#video{
+    background-color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#portafolio .box {
+    display: inline-block;
+    text-align: center;
+    width: 31%;
+    margin: 1%;
+    background-color: white;
+}
+
+#portafolio .box img {
+    width: 100%;
+}
+#portafolio .box p {
+    color: #666;
+    padding: 10px;
+}
+#contacto{
+    background-color: #303030;
+    background-image: url(../images/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#contacto h2 {
+    color: white;
+}
+
+#contacto input {
+    padding: 20px;
+    width: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+
+
+#contacto button {
+    background-color: #fed136;
+    padding: 20px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+}
+footer {
+    padding: 90px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container {
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+}
